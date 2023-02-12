@@ -1,8 +1,7 @@
 // import { useState } from "react";
 import React from "react";
-import Header from "./Header";
+import Header from "./Header"
 import List from "./List";
-// import { Task } from "./List";
 import './app.css'
 
 const App = () => {
@@ -13,7 +12,7 @@ const App = () => {
             <Header />
             </div>
             <div className="button">
-                <List />
+                < List/>
             </div>
             {/* <div>
                 <Task />
